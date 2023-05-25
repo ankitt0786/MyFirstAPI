@@ -11,10 +11,8 @@ namespace WebApplication1.Controllers
         private readonly IBookRepository _bookRepository;
         //private readonly IBookRepository _bookRepository2;
 
-        /// <summary>
-        /// Constructor Injection
-        /// </summary>
-        /// <param name="bookRepository"></param>
+       
+        // Constructor Injection
         public BooksController(IBookRepository bookRepository)
         {
             _bookRepository = bookRepository;
