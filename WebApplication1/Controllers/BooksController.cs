@@ -10,8 +10,7 @@ namespace WebApplication1.Controllers
     {
         private readonly IBookRepository _bookRepository;
         //private readonly IBookRepository _bookRepository2;
-
-       
+        
         // Constructor Injection
         public BooksController(IBookRepository bookRepository)
         {
